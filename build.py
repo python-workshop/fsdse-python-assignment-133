@@ -1,53 +1,29 @@
-from collections import deque
+def get_neighbors(x):
+    if x == 'a':
+        return ['b', 'c']
+    if x == 'b':
+        return ['d', 'e']
+    if x == 'c':
+        return []
+    if x == 'd':
+        return ['f']
 
 
-class Node:
-    def __init__(self, info):
-        self.info = info
-        self.left = None
-        self.right = None
-        self.level = None
+    return [] # Other nodes have no neighbors.
 
-    def __str__(self):
-        return str(self.info)
+def bfs(start):
+    queue = [start]
+    visited = set(start)
 
+    while queue:
+        node = queue.pop(0)
 
-def BFT(node):
-    node.level = 1
-    queue = deque([node])
-    output = []
-    current_level = node.level
+        for neighbor in get_neighbors(node):
+            if neighbor not in visited:
+                queue.append(neighbor)
+                visited.add(neighbor)
 
-    while len(queue) > 0:
+    return visited
 
-        current_node = queue.popleft()
+print(str(bfs('e')))
 
-        if (current_node.level > current_level):
-            output.append("\n")
-            current_level += 1
-
-        output.append(str(current_node))
-
-        if current_node.left != None:
-            current_node.left.level = current_level + 1
-            queue.append(current_node.left)
-
-        if current_node.right != None:
-            current_node.right.level = current_level + 1
-            queue.append(current_node.right)
-
-    return ''.join(output)
-
-
-root = Node(9)
-
-root.left = Node(2)
-root.right = Node(10)
-
-root.left.left = Node(1)
-root.left.right = Node(3)
-
-root.right.left = Node(5)
-root.right.right = Node(11)
-
-print BFT(root)
