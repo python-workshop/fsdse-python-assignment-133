@@ -1,4 +1,6 @@
 def get_neighbors(x):
+    if x is None:
+        return False
     if x == 'a':
         return ['b', 'c']
     if x == 'b':
@@ -25,5 +27,5 @@ def bfs(start):
 
     return visited
 
-print(str(bfs('e')))
+print(str(bfs('d')))
 

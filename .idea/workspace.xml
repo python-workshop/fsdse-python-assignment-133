@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dde56e65-85eb-4921-89b3-8ce5086e0327" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_get_neighbors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fsdse-python-assignment-133.iml" afterPath="$PROJECT_DIR$/.idea/fsdse-python-assignment-133.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build2.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.py" afterPath="$PROJECT_DIR$/build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_get_neighbors.py" afterPath="$PROJECT_DIR$/test/test_get_neighbors.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,21 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="54">
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_get_neighbors.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_get_neighbors.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_get_neighbors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -74,6 +72,7 @@
         <option value="$PROJECT_DIR$/build2.py" />
         <option value="$PROJECT_DIR$/test_get_neighbors.py" />
         <option value="$PROJECT_DIR$/build.py" />
+        <option value="$PROJECT_DIR$/test/test_get_neighbors.py" />
       </list>
     </option>
   </component>
@@ -170,39 +169,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="build2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fsdse-python-assignment-133" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests for test.test_get_neighbors.TestGet_neighbors" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fsdse-python-assignment-133" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_get_neighbors.TestGet_neighbors&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in test_get_neighbors.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,18 +184,48 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test.test_get_neighbors.TestGet_neighbors.test_get_neighbors" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test_get_neighbors.TestGet_neighbors.test_get_neighbors" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fsdse-python-assignment-133" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_get_neighbors.TestGet_neighbors.test_get_neighbors&quot;" />
+      <option name="_new_target" value="&quot;test_get_neighbors.TestGet_neighbors.test_get_neighbors&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for test_get_neighbors.TestGet_neighbors.test_if_the_value_is_false_if_none" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fsdse-python-assignment-133" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_get_neighbors.TestGet_neighbors.test_if_the_value_is_false_if_none&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for test_get_neighbors.TestGet_neighbors.test_if_some_input_the_c_which_is_without_node_give_blank" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fsdse-python-assignment-133" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_get_neighbors.TestGet_neighbors.test_if_some_input_the_c_which_is_without_node_give_blank&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
@@ -331,18 +327,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.build" />
-      <item index="1" class="java.lang.String" itemvalue="Python.build2" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test.test_get_neighbors.TestGet_neighbors" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_get_neighbors.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test.test_get_neighbors.TestGet_neighbors.test_get_neighbors" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_get_neighbors.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_get_neighbors.TestGet_neighbors.test_get_neighbors" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_get_neighbors.TestGet_neighbors.test_if_the_value_is_false_if_none" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_get_neighbors.TestGet_neighbors.test_if_some_input_the_c_which_is_without_node_give_blank" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.build" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test.test_get_neighbors.TestGet_neighbors.test_get_neighbors" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_get_neighbors.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test.test_get_neighbors.TestGet_neighbors" />
-        <item index="4" class="java.lang.String" itemvalue="Python.build2" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_get_neighbors.TestGet_neighbors.test_if_some_input_the_c_which_is_without_node_give_blank" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_get_neighbors.TestGet_neighbors.test_if_the_value_is_false_if_none" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_get_neighbors.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_get_neighbors.TestGet_neighbors.test_get_neighbors" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -379,13 +375,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_get_neighbors_TestGet_neighbors - 2017.05.16 at 13h 35m 47s.xml">
-      <configuration name="Unittests for test_get_neighbors.TestGet_neighbors" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_get_neighbors_TestGet_neighbors_test_get_neighbors - 2017.05.16 at 13h 39m 19s.xml">
       <configuration name="Unittests for test_get_neighbors.TestGet_neighbors.test_get_neighbors" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_get_neighbors_TestGet_neighbors_test_get_neighbors - 2017.05.17 at 12h 56m 29s.xml">
+      <configuration name="Unittests for test_get_neighbors.TestGet_neighbors.test_get_neighbors" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_neighbors_TestGet_neighbors_test_if_some_input_the_c_which_is_without_node_give_blank - 2017.05.17 at 13h 02m 24s.xml">
+      <configuration name="Unittests for test_get_neighbors.TestGet_neighbors.test_if_some_input_the_c_which_is_without_node_give_blank" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_neighbors_TestGet_neighbors_test_if_some_input_the_c_which_is_without_node_give_blank - 2017.05.17 at 13h 05m 02s.xml">
+      <configuration name="Unittests for test_get_neighbors.TestGet_neighbors.test_if_some_input_the_c_which_is_without_node_give_blank" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_neighbors_TestGet_neighbors_test_if_some_input_the_c_which_is_without_node_give_blank - 2017.05.17 at 13h 05m 31s.xml">
+      <configuration name="Unittests for test_get_neighbors.TestGet_neighbors.test_if_some_input_the_c_which_is_without_node_give_blank" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_neighbors_TestGet_neighbors_test_if_the_value_is_false_if_none - 2017.05.17 at 12h 59m 12s.xml">
+      <configuration name="Unittests for test_get_neighbors.TestGet_neighbors.test_if_the_value_is_false_if_none" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_neighbors_TestGet_neighbors_test_if_the_value_is_false_if_none - 2017.05.17 at 12h 59m 30s.xml">
+      <configuration name="Unittests for test_get_neighbors.TestGet_neighbors.test_if_the_value_is_false_if_none" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_neighbors_TestGet_neighbors_test_if_the_value_is_false_if_none - 2017.05.17 at 12h 59m 47s.xml">
+      <configuration name="Unittests for test_get_neighbors.TestGet_neighbors.test_if_the_value_is_false_if_none" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_test_get_neighbors_py - 2017.05.16 at 13h 38m 55s.xml">
+      <configuration name="Unittests in test_get_neighbors.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_get_neighbors_py - 2017.05.17 at 12h 56m 46s.xml">
       <configuration name="Unittests in test_get_neighbors.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -432,6 +449,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_get_neighbors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -440,14 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build2.py" />
     <entry file="file://$PROJECT_DIR$/test/test_get_neighbors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -497,26 +534,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build2.py">
+    <entry file="file://$PROJECT_DIR$/build2.py" />
+    <entry file="file://$PROJECT_DIR$/build.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="54">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_get_neighbors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
