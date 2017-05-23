@@ -1,31 +1,18 @@
-def get_neighbors(x):
-    if x is None:
-        return False
-    if x == 'a':
-        return ['b', 'c']
-    if x == 'b':
-        return ['d', 'e']
-    if x == 'c':
-        return []
-    if x == 'd':
-        return ['f']
+from collections import deque
+from bst import Bst
 
 
-    return [] # Other nodes have no neighbors.
+class BstBfs(Bst):
 
-def bfs(start):
-    queue = [start]
-    visited = set(start)
-
-    while queue:
-        node = queue.pop(0)
-
-        for neighbor in get_neighbors(node):
-            if neighbor not in visited:
-                queue.append(neighbor)
-                visited.add(neighbor)
-
-    return visited
-
-print(str(bfs('d')))
-
+    def bfs(self, visit_func):
+        if self.root is None:
+            raise TypeError('root is None')
+        queue = deque()
+        queue.append(self.root)
+        while queue:
+            node = queue.popleft()
+            visit_func(node)
+            if node.left is not None:
+                queue.append(node.left)
+            if node.right is not None:
+                queue.append(node.right)
